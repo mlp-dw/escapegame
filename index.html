@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# <link rel="stylesheet" href="/main.css"> #}
+    <title>Escape Game</title>
+</head>
+<body>
+
+  <div style="display:flex; flex-direction:column;">
+    <div style="font-weight:bold; font-size:32px">Par où est-il passé ?</div>
+    <div style="display:flex; flex-direction:row;">
+      <!-- Layers -->
+        <div id="piclayer" style="margin:1%">
+           <img onclick="checkAnswer(1)" class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/langfr-225px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png" style="width:400px;height:300px; display:none;">
+          
+           <img onclick="checkAnswer(2)" class="images" src="https://www.okvoyage.com/wp-content/uploads/2023/05/drapeau-grece-1024x682.jpg" style="width:400px; height:300px; display:none;">
+          
+           <img onclick="checkAnswer(3)" class="images" src="https://i.pinimg.com/736x/1d/44/16/1d44163129ede66f65e6ceb1f326a035.jpg" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(4)" class="images" src="https://www.larousse.fr/encyclopedie/data/images/1009497-Drapeau_du_Ghana.jpg" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(5)" class="images" src="https://www.larousse.fr/encyclopedie/data/images/1009488-Drapeau_des_%C3%89tats-Unis.jpg" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(6)" class="images" src="https://aufutur.fr/wp-content/uploads/2019/09/AdobeStock_103974726-scaled.jpeg" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(7)" class="images" src="https://www.larousse.fr/encyclopedie/data/images/1009518-Drapeau_du_Japon.jpg" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(8)" class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/langfr-225px-Flag_of_Germany.svg.png" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(9)" class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/2560px-Flag_of_South_Korea.svg.png" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(10)" class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" style="width:400px; height:300px; display:none;">
+          
+          <img onclick="checkAnswer(11)" class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2560px-Flag_of_Portugal.svg.png" style="width:400px; height:300px; display:none;">
+        </div> 
+      <!-- Layer 2 closed -->
+        <img class="key" src="https://img.freepik.com/vecteurs-premium/cle-antique-dessinee-main-style-croquis-cle-vintage-ancienne-illustration-conception_250899-13.jpg;" style="display:none;">
+    
+    </div>
+      </div>
+  
+  <script src="/main.js"></script>
+</body>
+</html>
